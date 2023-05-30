@@ -1,0 +1,18 @@
+{
+    "name" : "Pup-Me-Up",
+    "version" : "1.0.0",
+    "description" : "A tool to give your mood a boost by displaying pictures of cute dogs. A true pick-me-up to make any bad day better.",
+    "manifest_version" : 3,
+    "author" : "Nox Clark",
+    "action" : {
+        "default_popup" : "../html/home.html",
+        "default_title" : "Pup-Me-Up",
+        "default_icon" : "images/dog_popup.png"
+    },
+    "icons" : {
+        "16" : "images/dog_popup.png",
+        "32" : "images/dog_popup.png",
+        "48" : "images/dog_popup.png",
+        "128" : "images/dog_popup.png"
+    }
+}

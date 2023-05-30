@@ -1,0 +1,68 @@
+html {
+    width: 400px;
+    height: 400px;
+}
+body {
+    background-color: white;
+}
+h2 {
+    font-size: 38px;
+    color: black;
+    font-family: 'GoodDog Plain', sans-serif;
+    margin: 0.5em auto 0;  
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.header-container {
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid black;
+}
+.refresh-container {
+    font-size: 24px;
+    margin: 0.25em 0.5em 0.25em 0;
+    text-align: right;
+}
+#dogImage {
+    border: 2px black solid;
+    border-radius: 5%;
+    box-shadow: 5px 5px 0px green;
+    max-width: 350px;
+    max-height: 240px;
+}
+.sourcesLink-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 15px;
+}
+.sources-container {
+    font-size: 24px;
+}
+.sources-container h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+.singleSource {
+    margin: 0 auto 1em;
+}
+.backward-container a{
+    position: absolute;
+    left: 0.5em;
+    top: 3em;
+    text-align: left;
+    font-size: 24px;
+    color: black;
+}
+.backward-container a:hover {
+    color: green;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
