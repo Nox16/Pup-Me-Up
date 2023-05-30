@@ -66,3 +66,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.directURL {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 10px;
+    font-style: italic;
+}

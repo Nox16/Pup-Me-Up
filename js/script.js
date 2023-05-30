@@ -72,5 +72,9 @@ function init(){
     
     // Set-Up Button for New Dog Image
     setRefreshBtn();
+
+    // DEBUG Get Sources <a> Tags
+    const aTags = document.getElementsByClassName("sourcesLink");
+    console.log(aTags);
 }
 init();
